@@ -3,13 +3,13 @@ Align Assignments -- Sublime Text 2 Plugin
 
 Align assignment statements for a selection
 
-_This:_
+**This:**
 
 	variable = 1
 	other_variable = 2
 	yet_another_variable = 3
 
-_Becomes This:_
+**Becomes This:**
 
 	variable             = 1
 	other_variable       = 2
