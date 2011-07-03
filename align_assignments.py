@@ -50,7 +50,15 @@ class AlignAssignmentsCommand(sublime_plugin.TextCommand):
                 for line in target_lines:
                     string        = self.view.substr(line)
                     before, after = re.split(r"[\t ]*=[\t ]*", string, 1)
-                    value         = " = ".join([before.ljust(best_column), after])
+
+                    # we might be dealing withs something like:
+                    # foo => bar
+                    # array("foo" => $foo,
+                    #       "baz" => $baz);
+                    #
+                    # so pick our join string wisely
+                    artifact = " =" if after[0:1] == ">" else " = "
+                    value    = artifact.join([before.ljust(best_column), after])
 
                     modified_lines.append({"region": line, "value":value})
 
