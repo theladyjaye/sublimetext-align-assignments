@@ -28,6 +28,7 @@ Align assignment statements for a selection
                   );
 
 **Becomes This:**
+
 	$array = array(
                    "key"             => $value,
                    "other_key"       => $other_value,
