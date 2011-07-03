@@ -1,15 +1,15 @@
-Sublime Text 2 Plugin
+Align Assignments -- Sublime Text 2 Plugin
 ======================
 
 Align assignment statements for a selection
 
-*This:*
+_This:_
 
 	variable = 1
 	other_variable = 2
 	yet_another_variable = 3
 
-*Becomes This:*
+_Becomes This:_
 
 	variable             = 1
 	other_variable       = 2
