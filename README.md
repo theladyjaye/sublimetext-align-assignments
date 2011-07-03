@@ -27,6 +27,7 @@ If you would like to bind it to the same key combination as TextMate, add this:
 *{ "keys": ["super+alt+]"], "command": "align_assignments" }*
 
 to your:
+
 ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default (OSX).sublime-keymap
 
 
