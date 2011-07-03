@@ -19,6 +19,22 @@ Align assignment statements for a selection
 	other_variable       = 2
 	yet_another_variable = 3
 
+**And This:**
+
+	$array = array(
+                   "key" => $value,
+                   "other_key" => $other_value,
+                   "yet_another_key" => $yet_another_value
+                  );
+
+**Becomes This:**
+	$array = array(
+                   "key"             => $value,
+                   "other_key"       => $other_value,
+                   "yet_another_key" => $yet_another_value
+                  );
+
+
 
 Install (OS X)
 ----------------------------
