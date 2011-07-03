@@ -1,5 +1,9 @@
 Align Assignments -- Sublime Text 2 Plugin
-======================
+===========================================
+Sometimes I like to align my assignment statements in a given selection.
+Not everyone likes to do this, but it occassionally makes it easier for me to read.
+This features was in TextMate and I loved it. Migrating to Sublime Text 2 I missed it,
+so here it is for Sublime Text 2
 
 Align assignment statements for a selection
 
